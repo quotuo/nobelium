@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'F乌托邦',
+  title: '乌托邦',
   author: '付有司',
   email: 'fuyousi@outlook.com',
   link: 'https://siyi.eu.org',
