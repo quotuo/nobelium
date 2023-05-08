@@ -1,6 +1,6 @@
 const BLOG = {
   title: 'Futopia',
-  author: 'fuyousi',
+  author: '付有司',
   email: 'fuyousi@outlook.com',
   link: 'https://siyi.eu.org',
   description: 'This gonna be an awesome website.',
@@ -13,7 +13,7 @@ const BLOG = {
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2022, // If leave this empty, current year will be used.
   postsPerPage: 7,
-  sortByDate: false,
+  sortByDate: true,
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
