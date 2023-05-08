@@ -3,7 +3,7 @@ const BLOG = {
   author: 'fuyousi',
   email: 'fuyousi@outlook.com',
   link: 'https://siyi.eu.org',
-  description: '多年以后,小孩将会回想起他将青蛙皮剥下的下午,白色的肉丝带着血',
+  description: '多年以后，我还会回想起将青蛙皮剥下的下午，白色的肉丝带着血',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
