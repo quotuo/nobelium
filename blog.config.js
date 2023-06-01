@@ -1,9 +1,9 @@
 const BLOG = {
-  title: 'Futopia',
+  title: '乌托邦',
   author: '付有司',
   email: 'fuyousi@outlook.com',
   link: 'https://siyi.eu.org',
-  description: 'This gonna be an awesome website.',
+  description: '人间有味是清欢。',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
