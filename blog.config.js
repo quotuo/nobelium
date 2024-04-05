@@ -1,8 +1,8 @@
 const BLOG = {
   title: 'CHUN',
-  author: '春松',
+  author: 'CHUN',
   email: 'fuyousi@outlook.com',
-  link: 'https://siyi.eu.org',
+  link: 'https://chun.ac.cn',
   description: '人间有味是清欢。',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
@@ -38,7 +38,7 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: 'cusdis', // leave it empty if you don't need any comment plugin
+    provider: '', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
       repo: '', // The repository of store comments
       owner: '',
