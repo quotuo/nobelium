@@ -1,0 +1,14 @@
+diff --git a/build/src-Hmol2Mwb.js b/build/src-Hmol2Mwb.js
+index 8bb841dd8ce9de6185ad287211e90fb1bf35d45f..e7b28ba0a6a0559503dd9a79f288b74d696c35e0 100644
+--- a/build/src-Hmol2Mwb.js
++++ b/build/src-Hmol2Mwb.js
+@@ -3025,6 +3025,9 @@ function Block$1(props) {
+ 			className: blockId
+ 		});
+ 		default:
++			if (components[block.type]) {
++				return /* @__PURE__ */ jsx(components[block.type], { block, children });
++			}
+ 			console.log("Unsupported block type " + block.type, JSON.stringify(block, null, 2));
+ 			return /* @__PURE__ */ jsx("div", {});
+ 	}
