@@ -78,7 +78,7 @@ export async function getStaticPaths () {
 
 export async function getStaticProps ({ params: { slug } }) {
   const posts = await getAllPosts({ includePages: true })
-  const post = posts.find(t => t.slug === slug)
+  const post = posts.find(t => t.slug === slug || t.id === slug)
 
   if (!post) return { notFound: true }
 
