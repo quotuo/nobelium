@@ -42,7 +42,7 @@ export default function Post (props) {
                 alt={BLOG.author}
                 width={24}
                 height={24}
-                src="/author-avatar.png"
+                src="/author-avatar.webp"
                 className="rounded-full object-cover"
               />
               <p className="ml-2 md:block">{BLOG.author}</p>
