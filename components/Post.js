@@ -16,12 +16,11 @@ import TableOfContents from '@/components/TableOfContents'
  * @typedef {object} PostProps
  * @prop {object}   post       - Post metadata
  * @prop {object}   blockMap   - Post block data
- * @prop {string}   emailHash  - Author email hash (for Gravatar)
  * @prop {boolean} [fullWidth] - Whether in full-width mode
  */
 export default function Post (props) {
   const BLOG = useConfig()
-  const { post, blockMap, emailHash, fullWidth = false } = props
+  const { post, blockMap, fullWidth = false } = props
   const { dark } = useTheme()
 
   return (
@@ -43,8 +42,8 @@ export default function Post (props) {
                 alt={BLOG.author}
                 width={24}
                 height={24}
-                src={`https://gravatar.com/avatar/${emailHash}`}
-                className="rounded-full"
+                src="/author-avatar.png"
+                className="rounded-full object-cover"
               />
               <p className="ml-2 md:block">{BLOG.author}</p>
             </a>
@@ -80,6 +79,5 @@ export default function Post (props) {
 Post.propTypes = {
   post: PropTypes.object.isRequired,
   blockMap: PropTypes.object.isRequired,
-  emailHash: PropTypes.string.isRequired,
   fullWidth: PropTypes.bool
 }
